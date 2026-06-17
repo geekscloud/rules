@@ -1,7 +1,8 @@
-# hcaptcha.list - Clash 分流规则
-# 来源：用户请求（聚合公共域名列表）。
-# 生成日期：2026-06-17
-# 格式：DOMAIN-SUFFIX,<域名>,<代理组>
-# 注意：如果你的配置中代理组名不是 Proxy，请自行替换最后一列为你的代理组名（例如：🔰 选择节点）。
-
-DOMAIN-SUFFIX,hcaptcha.com,Proxy
+# NAME: hcaptcha
+# AUTHOR: geekscloud
+# REPO: https://github.com/geekscloud/rules
+# UPDATED: 2026-06-17 21:35:00
+# DOMAIN-SUFFIX: 1
+# TOTAL: 1
+payload:
+  - DOMAIN-SUFFIX,hcaptcha.com
